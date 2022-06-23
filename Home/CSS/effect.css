@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500');
+#Gallery{
+    text-align: center;
+    font-size:xx-large;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
+    /* border: 2px solid red; */
+    height: 70px;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    /* border: 2px solid red; */
+    text-align: center;
+    box-sizing: border-box;
+    padding-left: 7%;
+}
+.effect{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-top: 90px;
+    margin-right: 150px; 
+    margin-left: 150px; 
+    margin-bottom: 10px;
+    /* margin:150px; */
+    /* border: 2px solid white; */
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    transform: rotate(-30deg) skew(50deg);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.imgs{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+.effect:hover img:nth-child(5){
+    transform: translate(160px, -120px);
+    opacity: 1;
+}
+.effect:hover img:nth-child(4){
+    transform: translate(120px, -90px);
+    opacity: 0.8;
+}
+.effect:hover img:nth-child(3){
+    transform: translate(80px, -60px);
+    opacity: 0.6;
+}
+.effect:hover img:nth-child(2){
+    transform: translate(40px, -30px);
+    opacity: 0.4;
+}
+.effect:hover img:nth-child(1){
+    opacity: 0.2;
+}
+#hello{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid blue; */
+    /* padding-left: 140px;
+    padding-right: -10px; */
+    align-items: center;
+    justify-content: center;
+
+}
+.bottomtxt{
+    width: 30%;
+    /* border: 2px solid white; */
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+}

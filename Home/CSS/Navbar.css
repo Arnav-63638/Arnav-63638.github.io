@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    background-color: none;
+}
+body{
+    background-image: url("../Images/bgimg.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    /* border: 2px solid blue; */
+    z-index: 10;
+}
+#navlist{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width:50vw;
+    padding-left: 20px;
+    padding-right: 100px;
+    box-sizing: border-box;
+}
+.navitem{
+    text-align: center;
+    /* border: 2px solid blue; */
+    margin-top: 19px;
+    width:25%;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    top: 7px;
+}
+.navitem:hover{
+    font-weight: bold;
+}
+#img{
+    width:20vw;
+    padding-top: 5px;
+}
+.logo{
+    position: relative;
+    top: -10px;
+    width: 60px;
+    margin: 10px 15px;
+}
+.logo1{
+    position: relative;
+    top: -25px;
+    height:30px;
+    margin: 10px 15px;
+}
+#end{
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+    margin-top: auto;
+}
+.navbtn{
+    font-size: 20px;
+    margin: 10px;
+    margin-top: 20px;
+    color: white;
+    background: none;
+    border:2px solid blue;
+    /* border: none; */
+    height: 38px;
+}
+.nbtn{
+    width: 23px;
+    height: 23px;
+}
+.navbtntxt{
+    position: relative;
+    top:-10px;
+}
+#location{
+    position:relative;
+    top: 2px;
+    height:20px;
+    width:20px;
+}
+#navbutton-2{
+    font-size: medium;
+    border: 2px solid white;
+    padding-bottom: 26px;
+    padding-top: 8px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius:7px;
+    cursor: pointer;
+    transition-property: border;
+    transition-duration: 0.5s;
+}
+#navbutton-1, #navbutton-4, #navbutton-3{
+    border: none;
+}
+#navbutton-1{
+    width: 134px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    padding: 5px;
+}
+#navbutton-1:hover{   
+    background-color: #7a7a7a3d;
+}
+#navbutton-3, #navbutton-4{
+    position:relative;
+    top: -14px;
+    border-radius: 25px;
+    /* border: 2px solid red; */
+    height: 50px;
+    width: 50px;
+    padding: 3px 3px;
+    cursor: pointer;
+    transition-property:background-color;
+    transition-duration: 0.5s;
+}
+
+#navbutton-3:hover, #navbutton-4:hover{
+    background-color: #7a7a7a3d ;
+}
+#navbutton-2:hover{
+    border: 2px solid #ffffff7d;
+}
+#dest{
+    display: none;
+    height: 160px;
+    width: 150px;
+    border: 2px solid white;
+    color:aliceblue;
+    position: fixed;
+    top: 64px;
+    right: 300px;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 22px;
+    background-color: #7a7a7a3d;
+    opacity: 0.6;
+    transition: 0.5s;
+    z-index: 1;
+}
+.dest{
+    padding: 6px 0;
+    list-style-type:none;
+    cursor: pointer;
+}
+.dest:hover{
+    font-weight: bold;
+}
