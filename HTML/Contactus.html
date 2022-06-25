@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Fitness</title>
+    <link rel="stylesheet" href="../CSS/Index/Navbar.css">
+    <link rel="stylesheet" href="../CSS/Contact/contact.css">
+</head>
+<body style="background-color: black;">
+    <nav>
+        <div id="img">
+            <a href="../index.html"><img src="../Images/symbol.jpg" alt="" class="logo"></a><a href="../index.html"><img src="../Images/cooltext413560854777036.png" alt="" class="logo1"></a>
+        </div>
+        <div id="list">
+            <ul id="navlist">
+                <li class="navitem"><a href="Fitness.html">FITNESS</a></li>
+                <li class="navitem">CARE</li>
+                <li class="navitem">MIND</li>
+                <li class="navitem">STORE</li>
+            </ul>
+        </div>
+        <div id="end">
+            <button onclick="clicked()" id="navbutton-1" class="navbtn navbtntxt">
+                <span>Hyderabad</span><img id="location" src="../images/location.webp">
+            </button>
+            <button id="navbutton-2" class="navbtn navbtntxt">GET APP</button>
+            <a href="/HTML/Contactus.html"><button id="navbutton-3" class="navbtn"><img class="nbtn" src="../Images/Profile.webp" alt=""></button></a>
+            <button id="navbutton-4" class="navbtn"><img onclick="click()" class="nbtn"
+                    src="../Images/cart-dark-theme.webp" alt=""></button>
+        </div>
+        <div id="dest">
+            <ul>
+                <li onclick="clk(0)" class="dest">Hyderabad</li>
+                <li onclick="clk(1)" class="dest">Delhi</li>
+                <li onclick="clk(2)" class="dest">Mumbai</li>
+                <li onclick="clk(3)" class="dest">Banglore</li>
+            </ul>
+        </div>
+    </nav>
+    <div id="form">
+        <div id="top">
+            <img id="lg1" src="../Images/symbol.jpg" alt="">
+            <img id="lg2" src="../Images/cooltext413560854777036.png" alt="">
+        </div>
+        <div id="bottom" style="color:white">
+            <form action="" method="get">
+                <div class="ip">Name</div><br><input class="input" type="Name" placeholder="Enter your full name">
+                <div class="ip">Email</div><br><input class="input" type="email" placeholder="Enter your email address">
+                <div class="ip">Contact number</div><br><input class="input" type="Number" placeholder="Enter your contact number">
+                <div id="sub"><input id="Submit" type="submit" value="Submit"></div>
+            </form>
+        </div>
+    </div>
+    <script src="../js/Navbar.js">
+
+    </script>
+</body>
+</html>

@@ -3,13 +3,15 @@
     background-color: none;
 }
 body{
-    background-image: url("../Images/bgimg.jpg");
+    background-image: url(../../Images/finesssbg.webp);
     background-repeat: no-repeat;
     background-size:100%;
 }
 nav{
+    height: 65px;
     display: flex;
     flex-direction: row;
+    background-color: #161a1d;
     position: fixed;
     /* border: 2px solid blue; */
     z-index: 10;
@@ -57,7 +59,7 @@ nav{
     display: flex;
     flex-direction: row;
     width: 30vw;
-    margin-top: auto;
+    margin-top: 7px;
 }
 .navbtn{
     font-size: 20px;
@@ -152,4 +154,10 @@ nav{
 }
 .dest:hover{
     font-weight: bold;
+}
+#active{
+    color: white;
+    padding-bottom: 12px;
+    font-weight: bold;
+    border-bottom: 2px solid white;
 }

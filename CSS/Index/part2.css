@@ -4,6 +4,9 @@
     padding:0;
 }
 body{
+    background-image: url("../../Images/bgimg.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
     background-color: #171c20;
 }
 
